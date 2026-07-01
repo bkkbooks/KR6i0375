@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6i0375/x/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 蘭盆獻供儀
+  edition:
+    short: x
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X74/X74n1500.xml
+    old_id: X74n1500
+hash: sha256:6da0c33729301cbb93798ae6aa71a409dc9a5ae6141c1f4f0cb1b24de31138bc

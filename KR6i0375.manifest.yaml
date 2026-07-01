@@ -1,0 +1,52 @@
+canonical_identifier: bkk:krp/KR6i0375/v1
+canonical_location: https://kanripo.org/bkk/KR6i0375/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 蘭盆獻供儀
+  identifiers:
+    alt_id:
+    - X74n1500
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X74/X74n1500.xml
+    old_id: X74n1500
+  edition:
+    short: bkk
+editions:
+- short: 卍續
+  label: 卍續
+  source_xml_id: wit.orig
+- short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0375_000.yaml, hash: 'sha256:6da0c33729301cbb93798ae6aa71a409dc9a5ae6141c1f4f0cb1b24de31138bc'}
+  - {seq: 1, filename: KR6i0375_001.yaml, hash: 'sha256:822256457edc8cf5b9791f4b3b0f1c46388322748ac682fc93546a39d4af84a5'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0375_001.markers.yaml, hash: 'sha256:50614ac247d8fe9d66f4aaa8611e88011c12d1bd87caad1215749355ef200a2b'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0375_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 1499
+  label: 蘭盆獻供儀并序
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0375_X_001-mulu-1
+    span:
+    - body
+    - 166
+    - 166
+  label: 獻供儀
+  type: mulu
+  level: 1
+hash: sha256:547ae63628dad6aaa5f3a86ff67b4a51d3d5450196ebac14d9cadf992a54d121
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

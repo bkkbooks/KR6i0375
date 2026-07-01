@@ -1,0 +1,48 @@
+canonical_identifier: bkk:krp/KR6i0375/X/v1
+canonical_location: https://kanripo.org/bkk/KR6i0375/X/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 蘭盆獻供儀
+  identifiers:
+    krp: KR6i0375
+    cbeta: X74n1500
+    cbeta_old_id: X74n1500
+    authorityid: CA0001930
+    json_key: X1500
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X74/X74n1500.xml
+    old_id: X74n1500
+  edition:
+    short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0375_000-X.yaml, hash: 'sha256:6da0c33729301cbb93798ae6aa71a409dc9a5ae6141c1f4f0cb1b24de31138bc'}
+  - {seq: 1, filename: KR6i0375_001-X.yaml, hash: 'sha256:7128fcdc7f42d6cc9f6527135ef01722cc07762db02ac2fc8c5862932df2382b'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6i0375_000-X.markers.yaml, hash: 'sha256:82e80b93fae8d989e704bf2c82ffc88ab17cfa6a313c952ed4809068bc4fcf03'}
+  - {seq: 1, role: markers, filename: assets/KR6i0375_001-X.markers.yaml, hash: 'sha256:74ee2c35d2fc7dc7393a6bc02756a78d6add92908378f214ffdc15a3d2ca2752'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0375_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 1499
+  label: 蘭盆獻供儀并序
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0375_X_001-mulu-1
+    span:
+    - body
+    - 166
+    - 166
+  label: 獻供儀
+  type: mulu
+  level: 1
+hash: sha256:d44cccfc70929759429d9275c9f881854d48e32cc7f1ba49934606b4b28c16c5

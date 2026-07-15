@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6i0375/v1
 canonical_location: https://kanripo.org/bkk/KR6i0375/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 蘭盆獻供儀
   identifiers:
@@ -22,10 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0375_000.yaml, hash: 'sha256:6da0c33729301cbb93798ae6aa71a409dc9a5ae6141c1f4f0cb1b24de31138bc'}
-  - {seq: 1, filename: KR6i0375_001.yaml, hash: 'sha256:7128fcdc7f42d6cc9f6527135ef01722cc07762db02ac2fc8c5862932df2382b'}
+  - {seq: 1, filename: KR6i0375_001.yaml, hash: 'sha256:00a35e1c03afa732ddadd4266be93f9d6031656fe1f8f9c529f704a60b05761a'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6i0375_000.markers.yaml, hash: 'sha256:a937ca0fad53fc50ca8abf7d1eaa3ab0b3542b97265a9c6ec121072d7296d6f3'}
-  - {seq: 1, role: markers, filename: assets/KR6i0375_001.markers.yaml, hash: 'sha256:a8cbfcf550b5844045c19db038b0c27f5ff572c4675822aa7d0d15755a064f31'}
+  - {seq: 1, role: markers, filename: assets/KR6i0375_001.markers.yaml, hash: 'sha256:c46ce572b96c3cd8eaf89e83143dbd2ba307f27a8b3528f5c2b393f6bf6c1a59'}
 table_of_contents:
 - ref:
     seq: 1
@@ -47,4 +47,7 @@ table_of_contents:
   label: 獻供儀
   type: mulu
   level: 1
-hash: sha256:1316be59e7c718643807f95cf314887f07aea384f822cf6c8eab451e8b690c95
+hash: sha256:11755ea71a4c603d1456f577a055a7b5df411237bb32a9a255070eda0e80ca40
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
